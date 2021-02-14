@@ -2,7 +2,7 @@
 * Created a tool that estimates data science salaries (MAE ~ $ 11K).
 * Scraped over 1000 job descriptions from glassdoor using python and selenium.
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
-* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
+* Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to get the best model. 
 
 ## Code and Resources Used 
 **Python Version:** 3.8  
@@ -57,7 +57,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
-I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
+I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad for this type of model.   
 
 I tried three different models:
 *	**Multiple Linear Regression** – Baseline for the model
